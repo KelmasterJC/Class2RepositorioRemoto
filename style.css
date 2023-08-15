@@ -1,0 +1,86 @@
+html {
+    font-family: 'Noto Serif Makasar', serif;
+}
+
+body {
+    margin: 0;
+    background-color: #efefef;
+}
+
+header {
+    background-color: #6a00ff;
+    color: white;
+    padding: 2rem 1rem;
+}
+
+#title {
+    /* font-family: 'Permanent Marker', cursive; */
+    font-family: 'Special Elite', cursive;;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#subtitle {
+    margin-top: 5px;
+    font-family: 'Special Elite', cursive;;
+    text-align: center;
+}
+
+/* #logo {
+    max-width: 150px;
+    margin: 0 auto;
+} */
+
+img {
+    max-width: 350px;
+}
+
+.container {
+    max-width: 350px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+section article {
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 1rem;
+}
+
+.toph2 {
+    padding-top: 15px;
+}
+
+.buttomp {
+    padding-bottom: 15px;
+}
+
+section article:hover {
+    transition: box-shadow 0.2s ease;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.4);
+}
+      
+footer {
+    background-color: #222;
+    padding: 2rem;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+}
+
+#s1 {
+    float: right;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    transition: color 0.3s ease;
+    color: cornflowerblue;
+}
+
